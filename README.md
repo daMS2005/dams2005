@@ -34,18 +34,3 @@
   — <strong>Steve Jobs</strong>
 </p>
 
----
-
-## 📊 GitHub Stats
-
-<p align="center">
-  <img src="https://github-readme-stats.vercel.app/api?username=daMS2005&show_icons=true&theme=default" alt="Daniel's GitHub stats" />
-  <br/>
-  <img src="https://github-readme-streak-stats.herokuapp.com?user=daMS2005&theme=default" alt="GitHub Streak" />
-</p>
-
----
-
-<p align="center">
-  <img src="https://media.giphy.com/media/qgQUggAC3Pfv687qPC/giphy.gif" width="280" alt="Coding animation">
-</p>
