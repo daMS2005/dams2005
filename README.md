@@ -8,17 +8,7 @@
 ## 🧠 About Me
 
 - 💻 Focused on software development, automation, and real-world impact  
-- 🌍 Based in Spain | Originally from 🇩🇴  
 - 📈 Always building, iterating, and leveling up  
-
----
-
-## 🛠️ Tech Stack
-
-- Languages: `Python` `C++` `JavaScript` `HTML/CSS`  
-- Frameworks & Libraries: `React` `Node.js` `Tailwind CSS`  
-- Tools: `Git` `Docker` `Postman` `Figma`  
-- Databases: `MongoDB` `MySQL`  
 
 ---
 
@@ -38,8 +28,6 @@
 - 🐙 GitHub: [@daMS2005](https://github.com/daMS2005)  
 
 ---
-
-## 💬 Quote I Live By
 
 <p align="center">
   <em>“We’re here to put a dent in the universe. Otherwise why else even be here?”</em><br>
