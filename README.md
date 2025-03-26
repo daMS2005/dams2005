@@ -13,6 +13,24 @@
 
 ---
 
+## 🛠️ Tech Stack
+
+- Languages: `Python` `C++` `JavaScript` `HTML/CSS`  
+- Frameworks & Libraries: `React` `Node.js` `Tailwind CSS`  
+- Tools: `Git` `Docker` `Postman` `Figma`  
+- Databases: `MongoDB` `MySQL`  
+
+---
+
+## 📌 Current Projects
+
+- 🤖 **Autoposter**: Reddit to IG content automation  
+- 🧠 **Study Recommender System**: AI-powered material suggestions  
+- 💸 **IE Bank DevOps**: Full-stack banking platform with CI/CD  
+- 🕹️ **Alien Invasion Game**: Built with C++ for fun and learning  
+
+---
+
 ## 🔗 Connect with Me
 
 - 🌐 Website: [daniel-mora.com](https://daniel-mora.com)  
@@ -21,10 +39,22 @@
 
 ---
 
+## 💬 Quote I Live By
 
-## ✨ Fun Fact
+<p align="center">
+  <em>“We’re here to put a dent in the universe. Otherwise why else even be here?”</em><br>
+  — <strong>Steve Jobs</strong>
+</p>
 
-> I love building things that solve real problems — and I probably have 10 side projects going at once.
+---
+
+## 📊 GitHub Stats
+
+<p align="center">
+  <img src="https://github-readme-stats.vercel.app/api?username=daMS2005&show_icons=true&theme=default" alt="Daniel's GitHub stats" />
+  <br/>
+  <img src="https://github-readme-streak-stats.herokuapp.com?user=daMS2005&theme=default" alt="GitHub Streak" />
+</p>
 
 ---
 
