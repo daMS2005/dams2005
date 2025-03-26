@@ -21,14 +21,6 @@
 
 ---
 
-## 📌 Current Projects
-
-- 🤖 **Autoposter**: Reddit to IG content automation  
-- 🧠 **Study Recommender System**: AI-powered material suggestions  
-- 💸 **IE Bank DevOps**: Full-stack banking platform with CI/CD  
-- 🕹️ **Alien Invasion Game**: Built with C++ for fun and learning  
-
----
 
 ## ✨ Fun Fact
 
