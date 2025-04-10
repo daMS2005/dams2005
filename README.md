@@ -2,6 +2,13 @@
 <p align="center">
   <img src="https://readme-typing-svg.demolab.com/?lines=Hey+I'm+Daniel+Mora;Software+Engineering+Student;Tech+%E2%9A%A1+Business+%F0%9F%92%B8+Innovation&center=true&width=440&height=45&font=Fira+Code&pause=1000&color=00C2CB" alt="Typing SVG" />
 </p>
+<p align="center">
+  <img src="https://readme-typing-svg.demolab.com/?lines=Hey+I'm+Daniel+Mora;Software+Engineering+Student;Tech+%E2%9A%A1+Business+%F0%9F%92%B8+Innovation&center=true&width=440&height=45&font=Fira+Code&pause=1000&color=00C2CB" alt="Typing SVG" />
+</p>
+
+<p align="center">
+  <img src="https://visitor-badge.laobi.icu/badge?page_id=daMS2005" alt="Profile Views" />
+</p>
 
 ---
 
