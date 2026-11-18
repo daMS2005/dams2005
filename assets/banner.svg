@@ -1,0 +1,42 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1280 360" width="1280" height="360" role="img" aria-label="Daniel Mora, Software and AI Engineer, beside an orange black hole">
+  <defs>
+    <linearGradient id="dop" x1="0" x2="1">
+      <stop offset="0" stop-color="#fff4dc"/><stop offset=".28" stop-color="#ffb347"/>
+      <stop offset=".6" stop-color="#ff5c2a"/><stop offset="1" stop-color="#4a0f06"/>
+    </linearGradient>
+    <radialGradient id="haze">
+      <stop offset=".52" stop-color="#ff5c2a" stop-opacity="0"/>
+      <stop offset=".62" stop-color="#ff5c2a" stop-opacity=".42"/>
+      <stop offset=".8" stop-color="#7a1a0a" stop-opacity=".18"/>
+      <stop offset="1" stop-color="#7a1a0a" stop-opacity="0"/>
+    </radialGradient>
+    <linearGradient id="fade" x1="0" x2="1"><stop offset="0" stop-color="#000"/><stop offset=".5" stop-color="#000" stop-opacity="0"/></linearGradient>
+    <style>
+      .spin { transform-origin: 1010px 186px; animation: spin linear infinite; }
+      .s1 { animation-duration: 18s; } .s2 { animation-duration: 27s; animation-direction: reverse; } .s3 { animation-duration: 40s; }
+      .breathe { transform-origin: 1010px 186px; animation: breathe 6s ease-in-out infinite; }
+      @keyframes spin { to { transform: rotate(360deg); } }
+      @keyframes breathe { 50% { transform: scale(1.04); opacity: .8; } }
+      text { font-family: Inter, "Helvetica Neue", Helvetica, Arial, sans-serif; }
+    </style>
+  </defs>
+  <rect width="1280" height="360" fill="#000"/>
+
+  <!-- black hole: haze, turning strands of the disc, Doppler-bright photon ring, lensed arc -->
+  <circle class="breathe" cx="1010" cy="186" r="210" fill="url(#haze)"/>
+  <g fill="none" stroke-linecap="round">
+    <circle class="spin s1" cx="1010" cy="186" r="128" stroke="url(#dop)" stroke-width="1.4" stroke-dasharray="2 9 40 14 6 22" opacity=".75"/>
+    <circle class="spin s2" cx="1010" cy="186" r="142" stroke="#ffb347" stroke-width=".9" stroke-dasharray="1 12 24 30 3 18" opacity=".45"/>
+    <circle class="spin s3" cx="1010" cy="186" r="160" stroke="#ff5c2a" stroke-width=".7" stroke-dasharray="1 20 10 40" opacity=".35"/>
+    <circle cx="1010" cy="186" r="112" stroke="url(#dop)" stroke-width="5"/>
+    <path d="M868 160 A 152 132 0 0 1 1152 160" stroke="#ffb347" stroke-width="2" opacity=".7"/>
+  </g>
+  <circle cx="1010" cy="186" r="109" fill="#000"/>
+  <rect width="1280" height="360" fill="url(#fade)"/>
+
+  <!-- name -->
+  <text x="72" y="160" fill="#ffffff" font-size="64" font-weight="700" letter-spacing="-1.5">Daniel Mora</text>
+  <text x="74" y="212" fill="#ff5c2a" font-size="30" font-weight="600">Software &amp; AI Engineer</text>
+  <circle cx="80" cy="259" r="4" fill="#ff5c2a"/>
+  <text x="96" y="265" fill="#d8d4cc" font-size="19">New York, NY · Open to relocation in the US</text>
+</svg>
