@@ -2,24 +2,34 @@
   <a href="https://daniel-mora.com"><img src="assets/banner.svg" alt="Daniel Mora, Software & AI Engineer" width="100%"></a>
 </p>
 
-I build software that runs in the real world: web products and machine-learning systems.\
-I like hard questions, systems you can read, and testing the part most likely to fail.
+<p align="center">
+  I build software that runs in the real world: web products and machine-learning systems.<br>
+  I like hard questions, systems you can read, and testing the part most likely to fail.
+</p>
 
-[daniel-mora.com](https://daniel-mora.com) · [contact@daniel-mora.com](mailto:contact@daniel-mora.com) · [LinkedIn](https://www.linkedin.com/in/daniel-arturo-mora-00747524b/) · [Hugging Face](https://huggingface.co/dams2005)
+<p align="center">
+  <a href="https://daniel-mora.com"><img src="assets/visit.svg" alt="Visit daniel-mora.com" width="420"></a>
+</p>
 
 ## Flagship work
 
-**[JEPA Transformer](https://github.com/daMS2005/jepa-transformer-model)** · model, weights released\
-A two-stage equity forecaster. ArgusJEPA learns point-in-time asset-day embeddings. CassaFormer, a causal RoPE + Mixture-of-Experts Transformer with custom Triton kernels, reads the frozen embeddings as a sequence.\
-Weights: [ArgusJEPA](https://huggingface.co/dams2005/ArgusJEPA) · [CassaFormer](https://huggingface.co/dams2005/CassaFormer) · [case study](https://daniel-mora.com/jepa-transformer)
+<a href="https://daniel-mora.com/jepa-transformer"><img src="assets/card-jepa.svg" alt="JEPA Transformer: a two-stage equity forecaster. Read the case study." width="100%"></a>
 
-**[Brain–LLM feature correspondence](https://github.com/daMS2005/sparse-feature-correspondence)** · thesis and preprint\
-Tests whether sparse language-model features and human brain responses (fMRI, 59 listeners, 200 cortical parcels) rely on the same features in the same way. The features transfer across descriptions for both; whether they match is inconclusive, because the test rarely detects planted agreement.\
-[Case study](https://daniel-mora.com/thesis)
+<sub>[Code](https://github.com/daMS2005/jepa-transformer-model) · weights: [ArgusJEPA](https://huggingface.co/dams2005/ArgusJEPA), [CassaFormer](https://huggingface.co/dams2005/CassaFormer)</sub>
 
-**[TC_ACC documentary studio](https://github.com/daMS2005/TC_ACC_PUBLIC)** · agentic system\
-Turns one case link into a researched, narrated, rendered ten-minute documentary episode in about five hours: 26 production stages and 2 Showrunner review gates.\
-[Case study](https://daniel-mora.com/tc-acc)
+<a href="https://daniel-mora.com/thesis"><img src="assets/card-thesis.svg" alt="Brain–LLM feature correspondence: thesis and preprint. Read the case study." width="100%"></a>
+
+<sub>[Code](https://github.com/daMS2005/sparse-feature-correspondence)</sub>
+
+<a href="https://daniel-mora.com/tc-acc"><img src="assets/card-tcacc.svg" alt="TC_ACC documentary studio: an agentic system with 28 stages. Read the case study." width="100%"></a>
+
+<sub>[Public repo](https://github.com/daMS2005/TC_ACC_PUBLIC)</sub>
+
+## What I build with
+
+<p align="center">
+  <img src="assets/tools.svg" alt="Python, PyTorch, Hugging Face, C++, TypeScript, Docker, Google Cloud, PostgreSQL and other tools orbiting a black hole" width="100%">
+</p>
 
 ## More projects
 
@@ -34,8 +44,6 @@ Turns one case link into a researched, narrated, rendered ten-minute documentary
 | Automated Content Poster | Source-to-publish media pipeline: rewrite, voiceover, assemble, post | [code](https://github.com/daMS2005/Autopost) |
 | Alien Invasion | C++ / SFML game with unit tests, CMake and generated docs | [code](https://github.com/daMS2005/alieninvasion) |
 
-## Tools
-
-Python · C++ · SQL · JavaScript · TypeScript\
-PyTorch · sparse autoencoders · PEFT / LoRA · Triton · Hugging Face\
-FastAPI · PostgreSQL · DuckDB · Docker · Google Cloud · Vercel
+<p align="center">
+  <a href="https://daniel-mora.com">daniel-mora.com</a> · <a href="mailto:contact@daniel-mora.com">contact@daniel-mora.com</a> · <a href="https://www.linkedin.com/in/daniel-arturo-mora-00747524b/">LinkedIn</a> · <a href="https://huggingface.co/dams2005">Hugging Face</a>
+</p>
