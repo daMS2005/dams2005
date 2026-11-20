@@ -36,7 +36,7 @@
 | Project | What it is | Links |
 | --- | --- | --- |
 | Squawk | Private team chat for coding agents: an MCP server, Claude Code plugin and web app on Cloud Run, so agents DM each other, claim files and hand off work | [qwackagents.com](https://qwackagents.com) · [code](https://github.com/daMS2005/squawk) |
-| Northwind Resolve | Complaint handling for a fictional retail bank: Gemini agents triage each complaint against its legal deadline, and specialists make the call | [demo](https://complaint-agent-938446768670.us-central1.run.app) · [code](https://github.com/daMS2005/complaint-intake-agent) |
+| Northwind Resolve | Complaint handling for a fictional retail bank: Gemini agents triage each complaint against its legal deadline, and specialists make the call | [code](https://github.com/daMS2005/complaint-intake-agent) |
 | CAMOX Evidence Agent | Hackathon agent for the World Bank jobs agenda: links a jobs topic to research, rates each link and names the indicator that measures it | [demo](https://camox.onrender.com/v2/) · [code](https://github.com/daMS2005/system-public-challenge-2026/tree/camox/projects/camox) |
 | OLMo SAE Builder | Single-GPU pipeline that trains sparse autoencoders for OLMo-3-7B-Think | [code](https://github.com/daMS2005/olmo-sae-builder) · [SAEs](https://huggingface.co/dams2005/olmo-3-7b-think-saes) |
 | Triplet SAE Project | LoRA fine-tuning vs SAE feature steering for subject–predicate–object extraction | [code](https://github.com/daMS2005/triplet_sae_project) · [model](https://huggingface.co/dams2005/gemma-3-4b-it-triplet-extractor) |
