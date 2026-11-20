@@ -1,51 +1,34 @@
-<p align="center">
-  <a href="https://daniel-mora.com"><img src="assets/banner.svg" alt="Daniel Mora, Software & AI Engineer" width="100%"></a>
-</p>
+<p align="center"><img src="assets/banner.svg" alt="Daniel Mora, Software and AI Engineer" width="100%"></p>
 
-<p align="center">
-  I build software that runs in the real world: web products and machine-learning systems.<br>
-  I like hard questions, systems you can read, and testing the part most likely to fail.
-</p>
+<p align="center">I work across the ML stack: data pipelines, model training, GPU kernels,<br>and the agent systems and services that run on top.</p>
 
-<p align="center">
-  <a href="https://daniel-mora.com"><img src="assets/visit.svg" alt="Visit daniel-mora.com" width="420"></a>
-</p>
+<p align="center"><a href="https://daniel-mora.com"><img src="https://img.shields.io/badge/daniel--mora.com-0d0d0d?style=for-the-badge&logo=googlechrome" alt="daniel-mora.com"></a> <a href="https://huggingface.co/dams2005"><img src="https://img.shields.io/badge/Hugging%20Face-0d0d0d?style=for-the-badge&logo=huggingface" alt="Hugging Face"></a> <a href="https://www.linkedin.com/in/daniel-mora-00747524b/"><img src="https://img.shields.io/badge/LinkedIn-0d0d0d?style=for-the-badge&logo=data%3Aimage%2Fsvg%2Bxml%3Bbase64%2CPHN2ZyByb2xlPSJpbWciIHZpZXdCb3g9IjAgMCAyNCAyNCIgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIj48dGl0bGU%2BTGlua2VkSW48L3RpdGxlPjxwYXRoIGZpbGw9IiMwQTY2QzIiIGQ9Ik0yMC40NDcgMjAuNDUyaC0zLjU1NHYtNS41NjljMC0xLjMyOC0uMDI3LTMuMDM3LTEuODUyLTMuMDM3LTEuODUzIDAtMi4xMzYgMS40NDUtMi4xMzYgMi45Mzl2NS42NjdIOS4zNTFWOWgzLjQxNHYxLjU2MWguMDQ2Yy40NzctLjkgMS42MzctMS44NSAzLjM3LTEuODUgMy42MDEgMCA0LjI2NyAyLjM3IDQuMjY3IDUuNDU1djYuMjg2ek01LjMzNyA3LjQzM2MtMS4xNDQgMC0yLjA2My0uOTI2LTIuMDYzLTIuMDY1IDAtMS4xMzguOTItMi4wNjMgMi4wNjMtMi4wNjMgMS4xNCAwIDIuMDY0LjkyNSAyLjA2NCAyLjA2MyAwIDEuMTM5LS45MjUgMi4wNjUtMi4wNjQgMi4wNjV6bTEuNzgyIDEzLjAxOUgzLjU1NVY5aDMuNTY0djExLjQ1MnpNMjIuMjI1IDBIMS43NzFDLjc5MiAwIDAgLjc3NCAwIDEuNzI5djIwLjU0MkMwIDIzLjIyNy43OTIgMjQgMS43NzEgMjRoMjAuNDUxQzIzLjIgMjQgMjQgMjMuMjI3IDI0IDIyLjI3MVYxLjcyOUMyNCAuNzc0IDIzLjIgMCAyMi4yMjIgMGguMDAzeiIvPjwvc3ZnPg%3D%3D" alt="LinkedIn"></a></p>
 
-## Flagship work
+## What I work on
 
-<a href="https://daniel-mora.com/jepa-transformer"><img src="assets/card-jepa.svg" alt="JEPA Transformer: a two-stage equity forecaster. Read the case study." width="100%"></a>
+- **Model architecture and training:** self-supervised (JEPA) encoders, causal Transformers with RoPE and Mixture-of-Experts, LoRA fine-tuning, quantized exports
+- **GPU performance:** custom Triton kernels, benchmarked against torch.compile and cuBLAS before they ship
+- **Interpretability:** sparse autoencoders, activation capture, feature steering, ablation studies
+- **Agent systems:** multi-stage pipelines with review gates and verifiers, MCP tool servers, RAG and GraphRAG
+- **Production services:** APIs on Cloud Run, infrastructure as code, CI/CD
 
-<sub>[Code](https://github.com/daMS2005/jepa-transformer-model) · weights: [ArgusJEPA](https://huggingface.co/dams2005/ArgusJEPA), [CassaFormer](https://huggingface.co/dams2005/CassaFormer)</sub>
+## Stack
 
-<a href="https://daniel-mora.com/thesis"><img src="assets/card-thesis.svg" alt="Brain–LLM feature correspondence: thesis and preprint. Read the case study." width="100%"></a>
+<table>
+<tr><td><b>Languages</b></td><td><img src="https://img.shields.io/badge/Python-0d0d0d?style=for-the-badge&logo=python" alt="Python"> <img src="https://img.shields.io/badge/TypeScript-0d0d0d?style=for-the-badge&logo=typescript" alt="TypeScript"> <img src="https://img.shields.io/badge/C%2B%2B-0d0d0d?style=for-the-badge&logo=cplusplus" alt="C++"> <img src="https://img.shields.io/badge/SQL-0d0d0d?style=for-the-badge&logo=postgresql" alt="SQL"></td></tr>
+<tr><td><b>ML</b></td><td><img src="https://img.shields.io/badge/PyTorch-0d0d0d?style=for-the-badge&logo=pytorch" alt="PyTorch"> <img src="https://img.shields.io/badge/Triton-0d0d0d?style=for-the-badge&logo=nvidia" alt="Triton"> <img src="https://img.shields.io/badge/CUDA%20GPUs-0d0d0d?style=for-the-badge&logo=nvidia" alt="CUDA GPUs"> <img src="https://img.shields.io/badge/Hugging%20Face-0d0d0d?style=for-the-badge&logo=huggingface" alt="Hugging Face"> <img src="https://img.shields.io/badge/vLLM-0d0d0d?style=for-the-badge&logo=vllm&logoColor=white" alt="vLLM"> <img src="https://img.shields.io/badge/Ollama-0d0d0d?style=for-the-badge&logo=ollama&logoColor=white" alt="Ollama"></td></tr>
+<tr><td><b>Agents and LLMs</b></td><td><img src="https://img.shields.io/badge/LangGraph-0d0d0d?style=for-the-badge&logo=langgraph&logoColor=white" alt="LangGraph"> <img src="https://img.shields.io/badge/Pydantic-0d0d0d?style=for-the-badge&logo=pydantic" alt="Pydantic"> <img src="https://img.shields.io/badge/MCP-0d0d0d?style=for-the-badge&logo=modelcontextprotocol&logoColor=white" alt="MCP"> <img src="https://img.shields.io/badge/Claude-0d0d0d?style=for-the-badge&logo=claude" alt="Claude"> <img src="https://img.shields.io/badge/OpenAI-0d0d0d?style=for-the-badge&logo=data%3Aimage%2Fsvg%2Bxml%3Bbase64%2CPHN2ZyByb2xlPSJpbWciIHZpZXdCb3g9IjAgMCAyNCAyNCIgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIj48dGl0bGU%2BT3BlbkFJPC90aXRsZT48cGF0aCBmaWxsPSIjZmZmZmZmIiBkPSJNMjIuMjgxOSA5LjgyMTFhNS45ODQ3IDUuOTg0NyAwIDAgMC0uNTE1Ny00LjkxMDggNi4wNDYyIDYuMDQ2MiAwIDAgMC02LjUwOTgtMi45QTYuMDY1MSA2LjA2NTEgMCAwIDAgNC45ODA3IDQuMTgxOGE1Ljk4NDcgNS45ODQ3IDAgMCAwLTMuOTk3NyAyLjkgNi4wNDYyIDYuMDQ2MiAwIDAgMCAuNzQyNyA3LjA5NjYgNS45OCA1Ljk4IDAgMCAwIC41MTEgNC45MTA3IDYuMDUxIDYuMDUxIDAgMCAwIDYuNTE0NiAyLjkwMDFBNS45ODQ3IDUuOTg0NyAwIDAgMCAxMy4yNTk5IDI0YTYuMDU1NyA2LjA1NTcgMCAwIDAgNS43NzE4LTQuMjA1OCA1Ljk4OTQgNS45ODk0IDAgMCAwIDMuOTk3Ny0yLjkwMDEgNi4wNTU3IDYuMDU1NyAwIDAgMC0uNzQ3NS03LjA3Mjl6bS05LjAyMiAxMi42MDgxYTQuNDc1NSA0LjQ3NTUgMCAwIDEtMi44NzY0LTEuMDQwOGwuMTQxOS0uMDgwNCA0Ljc3ODMtMi43NTgyYS43OTQ4Ljc5NDggMCAwIDAgLjM5MjctLjY4MTN2LTYuNzM2OWwyLjAyIDEuMTY4NmEuMDcxLjA3MSAwIDAgMSAuMDM4LjA1MnY1LjU4MjZhNC41MDQgNC41MDQgMCAwIDEtNC40OTQ1IDQuNDk0NHptLTkuNjYwNy00LjEyNTRhNC40NzA4IDQuNDcwOCAwIDAgMS0uNTM0Ni0zLjAxMzdsLjE0Mi4wODUyIDQuNzgzIDIuNzU4MmEuNzcxMi43NzEyIDAgMCAwIC43ODA2IDBsNS44NDI4LTMuMzY4NXYyLjMzMjRhLjA4MDQuMDgwNCAwIDAgMS0uMDMzMi4wNjE1TDkuNzQgMTkuOTUwMmE0LjQ5OTIgNC40OTkyIDAgMCAxLTYuMTQwOC0xLjY0NjR6TTIuMzQwOCA3Ljg5NTZhNC40ODUgNC40ODUgMCAwIDEgMi4zNjU1LTEuOTcyOFYxMS42YS43NjY0Ljc2NjQgMCAwIDAgLjM4NzkuNjc2NWw1LjgxNDQgMy4zNTQzLTIuMDIwMSAxLjE2ODVhLjA3NTcuMDc1NyAwIDAgMS0uMDcxIDBsLTQuODMwMy0yLjc4NjVBNC41MDQgNC41MDQgMCAwIDEgMi4zNDA4IDcuODcyem0xNi41OTYzIDMuODU1OEwxMy4xMDM4IDguMzY0IDE1LjExOTIgNy4yYS4wNzU3LjA3NTcgMCAwIDEgLjA3MSAwbDQuODMwMyAyLjc5MTNhNC40OTQ0IDQuNDk0NCAwIDAgMS0uNjc2NSA4LjEwNDJ2LTUuNjc3MmEuNzkuNzkgMCAwIDAtLjQwNy0uNjY3em0yLjAxMDctMy4wMjMxbC0uMTQyLS4wODUyLTQuNzczNS0yLjc4MThhLjc3NTkuNzc1OSAwIDAgMC0uNzg1NCAwTDkuNDA5IDkuMjI5N1Y2Ljg5NzRhLjA2NjIuMDY2MiAwIDAgMSAuMDI4NC0uMDYxNWw0LjgzMDMtMi43ODY2YTQuNDk5MiA0LjQ5OTIgMCAwIDEgNi42ODAyIDQuNjZ6TTguMzA2NSAxMi44NjNsLTIuMDItMS4xNjM4YS4wODA0LjA4MDQgMCAwIDEtLjAzOC0uMDU2N1Y2LjA3NDJhNC40OTkyIDQuNDk5MiAwIDAgMSA3LjM3NTctMy40NTM3bC0uMTQyLjA4MDVMOC43MDQgNS40NTlhLjc5NDguNzk0OCAwIDAgMC0uMzkyNy42ODEzem0xLjA5NzYtMi4zNjU0bDIuNjAyLTEuNDk5OCAyLjYwNjkgMS40OTk4djIuOTk5NGwtMi41OTc0IDEuNDk5Ny0yLjYwNjctMS40OTk3WiIvPjwvc3ZnPg%3D%3D" alt="OpenAI"> <img src="https://img.shields.io/badge/Gemini-0d0d0d?style=for-the-badge&logo=googlegemini" alt="Gemini"></td></tr>
+<tr><td><b>Backend and data</b></td><td><img src="https://img.shields.io/badge/FastAPI-0d0d0d?style=for-the-badge&logo=fastapi" alt="FastAPI"> <img src="https://img.shields.io/badge/PostgreSQL-0d0d0d?style=for-the-badge&logo=postgresql" alt="PostgreSQL"> <img src="https://img.shields.io/badge/DuckDB-0d0d0d?style=for-the-badge&logo=duckdb" alt="DuckDB"> <img src="https://img.shields.io/badge/BigQuery-0d0d0d?style=for-the-badge&logo=googlebigquery" alt="BigQuery"> <img src="https://img.shields.io/badge/Firestore-0d0d0d?style=for-the-badge&logo=firebase" alt="Firestore"></td></tr>
+<tr><td><b>Infra</b></td><td><img src="https://img.shields.io/badge/Google%20Cloud-0d0d0d?style=for-the-badge&logo=googlecloud" alt="Google Cloud"> <img src="https://img.shields.io/badge/Terraform-0d0d0d?style=for-the-badge&logo=terraform" alt="Terraform"> <img src="https://img.shields.io/badge/Docker-0d0d0d?style=for-the-badge&logo=docker" alt="Docker"> <img src="https://img.shields.io/badge/GitHub%20Actions-0d0d0d?style=for-the-badge&logo=githubactions" alt="GitHub Actions"></td></tr>
+<tr><td><b>Front end</b></td><td><img src="https://img.shields.io/badge/React-0d0d0d?style=for-the-badge&logo=react" alt="React"> <img src="https://img.shields.io/badge/Next.js-0d0d0d?style=for-the-badge&logo=nextdotjs&logoColor=white" alt="Next.js"> <img src="https://img.shields.io/badge/Tailwind-0d0d0d?style=for-the-badge&logo=tailwindcss" alt="Tailwind"> <img src="https://img.shields.io/badge/three.js-0d0d0d?style=for-the-badge&logo=threedotjs&logoColor=white" alt="three.js"> <img src="https://img.shields.io/badge/FFmpeg-0d0d0d?style=for-the-badge&logo=ffmpeg" alt="FFmpeg"></td></tr>
+</table>
 
-<sub>[Code](https://github.com/daMS2005/sparse-feature-correspondence)</sub>
+## Repos worth a look
 
-<a href="https://daniel-mora.com/tc-acc"><img src="assets/card-tcacc.svg" alt="TC_ACC documentary studio: an agentic system with 28 stages. Read the case study." width="100%"></a>
-
-<sub>[Public repo](https://github.com/daMS2005/TC_ACC_PUBLIC)</sub>
-
-## What I build with
-
-<p align="center">
-  <img src="assets/tools.svg" alt="Python, PyTorch, Hugging Face, C++, Claude, the Squawk duck, TypeScript, Docker, Google Cloud, PostgreSQL and other tools orbiting a black hole" width="100%">
-</p>
-
-## More projects
-
-| Project | What it is | Links |
+| Repo | What it is | Built with |
 | --- | --- | --- |
-| Squawk | Private team chat for coding agents: an MCP server, Claude Code plugin and web app on Cloud Run, so agents DM each other, claim files and hand off work | [qwackagents.com](https://qwackagents.com) · [code](https://github.com/daMS2005/squawk) |
-| Northwind Resolve | Complaint handling for a fictional retail bank: Gemini agents triage each complaint against its legal deadline, and specialists make the call | [code](https://github.com/daMS2005/complaint-intake-agent) |
-| CAMOX Evidence Agent | Hackathon agent for the World Bank jobs agenda: links a jobs topic to research, rates each link and names the indicator that measures it | [demo](https://camox.onrender.com/v2/) · [code](https://github.com/daMS2005/system-public-challenge-2026/tree/camox/projects/camox) |
-| OLMo SAE Builder | Single-GPU pipeline that trains sparse autoencoders for OLMo-3-7B-Think | [code](https://github.com/daMS2005/olmo-sae-builder) · [SAEs](https://huggingface.co/dams2005/olmo-3-7b-think-saes) |
-| Triplet SAE Project | LoRA fine-tuning vs SAE feature steering for subject–predicate–object extraction | [code](https://github.com/daMS2005/triplet_sae_project) · [model](https://huggingface.co/dams2005/gemma-3-4b-it-triplet-extractor) |
-| Dual-Agent AI Chatbot | Controlled persuasion experiment between two LLM agents | [code](https://github.com/daMS2005/AI_BotAssistent_Personality) |
-| LearnMate | Agentic study partner with personalized resource recommendations | [code](https://github.com/EduRecommender/LearnMate) |
-| Cloud Banking Platform | Six-role team build: app code, infrastructure, CI/CD and secrets as one system | [org](https://github.com/IE-BestBank) |
-| Automated Content Poster | Source-to-publish media pipeline: rewrite, voiceover, assemble, post | [code](https://github.com/daMS2005/Autopost) |
-| Alien Invasion | C++ / SFML game with unit tests, CMake and generated docs | [code](https://github.com/daMS2005/alieninvasion) |
-
-<p align="center">
-  <a href="https://daniel-mora.com">daniel-mora.com</a> · <a href="mailto:contact@daniel-mora.com">contact@daniel-mora.com</a> · <a href="https://www.linkedin.com/in/daniel-arturo-mora-00747524b/">LinkedIn</a> · <a href="https://huggingface.co/dams2005">Hugging Face</a>
-</p>
+| [jepa-transformer-model](https://github.com/daMS2005/jepa-transformer-model) | JEPA encoder + MoE Transformer, with Triton kernels up to 2.4× faster than torch.compile | <img src="https://img.shields.io/badge/PyTorch-0d0d0d?style=flat-square&logo=pytorch" alt="PyTorch"> <img src="https://img.shields.io/badge/Triton-0d0d0d?style=flat-square&logo=nvidia" alt="Triton"> <img src="https://img.shields.io/badge/PostgreSQL-0d0d0d?style=flat-square&logo=postgresql" alt="PostgreSQL"> |
+| [olmo-sae-builder](https://github.com/daMS2005/olmo-sae-builder) | Single-GPU pipeline that trains TopK SAEs on OLMo-3-7B-Think | <img src="https://img.shields.io/badge/PyTorch-0d0d0d?style=flat-square&logo=pytorch" alt="PyTorch"> <img src="https://img.shields.io/badge/Hugging%20Face-0d0d0d?style=flat-square&logo=huggingface" alt="Hugging Face"> <img src="https://img.shields.io/badge/Google%20Cloud-0d0d0d?style=flat-square&logo=googlecloud" alt="Google Cloud"> |
+| [triplet_sae_project](https://github.com/daMS2005/triplet_sae_project) | SAE feature steering vs LoRA for structured extraction | <img src="https://img.shields.io/badge/PyTorch-0d0d0d?style=flat-square&logo=pytorch" alt="PyTorch"> <img src="https://img.shields.io/badge/Hugging%20Face-0d0d0d?style=flat-square&logo=huggingface" alt="Hugging Face"> |
+| [squawk](https://github.com/daMS2005/squawk) | MCP server and web app for coordinating coding agents | <img src="https://img.shields.io/badge/MCP-0d0d0d?style=flat-square&logo=modelcontextprotocol&logoColor=white" alt="MCP"> <img src="https://img.shields.io/badge/Cloud%20Run-0d0d0d?style=flat-square&logo=googlecloud" alt="Cloud Run"> <img src="https://img.shields.io/badge/Terraform-0d0d0d?style=flat-square&logo=terraform" alt="Terraform"> |
+| [TC_ACC_PUBLIC](https://github.com/daMS2005/TC_ACC_PUBLIC) | Excerpt of a 28-stage autonomous video pipeline | <img src="https://img.shields.io/badge/LangGraph-0d0d0d?style=flat-square&logo=langgraph&logoColor=white" alt="LangGraph"> <img src="https://img.shields.io/badge/Pydantic-0d0d0d?style=flat-square&logo=pydantic" alt="Pydantic"> <img src="https://img.shields.io/badge/FFmpeg-0d0d0d?style=flat-square&logo=ffmpeg" alt="FFmpeg"> |

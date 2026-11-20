@@ -35,8 +35,6 @@
   <rect width="1280" height="360" fill="url(#fade)"/>
 
   <!-- name -->
-  <text x="72" y="160" fill="#ffffff" font-size="64" font-weight="700" letter-spacing="-1.5">Daniel Mora</text>
-  <text x="74" y="212" fill="#ff5c2a" font-size="30" font-weight="600">Software &amp; AI Engineer</text>
-  <circle cx="80" cy="259" r="4" fill="#ff5c2a"/>
-  <text x="96" y="265" fill="#d8d4cc" font-size="19">New York, NY · Open to relocation in the US</text>
+  <text x="72" y="180" fill="#ffffff" font-size="64" font-weight="700" letter-spacing="-1.5">Daniel Mora</text>
+  <text x="74" y="232" fill="#ff5c2a" font-size="30" font-weight="600">Software &amp; AI Engineer</text>
 </svg>
